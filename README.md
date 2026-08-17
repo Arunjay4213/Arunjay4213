@@ -14,6 +14,7 @@ Writing fused CUDA kernels for linear attention, targeting roughly 15x longer us
 
 ## Selected projects
 
+- [race-attention-kernel](https://github.com/Arunjay4213/race-attention-kernel) - why an ICLR 2026 linear-attention repo's shipped CUDA kernels never run, with A100 baseline benchmarks; the replacement fused kernel is in progress.
 - [Tripwire](https://github.com/Arunjay4213/Tripwire) - prompt-injection security testing for AI agents, published on PyPI as `tripwire-eval`, so you can find out whether your agent is hijackable before it ships.
 - [Wattbot](https://github.com/Arunjay4213/Wattbot) - hybrid RAG system built for a Kaggle competition, reaching 87% accuracy across 282 test queries.
 - [AI_Interviewer](https://github.com/Arunjay4213/AI_Interviewer) - mock interview agent, 3rd place at MadData 2025.
