@@ -17,7 +17,7 @@ Writing fused CUDA kernels for linear attention, targeting roughly 15x longer us
 - [Tripwire](https://github.com/Arunjay4213/Tripwire) - prompt-injection security testing for AI agents, published on PyPI as `tripwire-eval`, so you can find out whether your agent is hijackable before it ships.
 - [Wattbot](https://github.com/Arunjay4213/Wattbot) - hybrid RAG system built for a Kaggle competition, reaching 87% accuracy across 282 test queries.
 - [AI_Interviewer](https://github.com/Arunjay4213/AI_Interviewer) - mock interview agent, 3rd place at MadData 2025.
-- [CustomShell](https://github.com/Arunjay4213/CustomShell) - a custom shell built from scratch in Python.
+- [CustomShell](https://github.com/Arunjay4213/CustomShell) - a POSIX shell written in C: pipelines, redirection, job control, and builtins.
 
 ## Where the rest of my work lives
 
