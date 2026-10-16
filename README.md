@@ -21,7 +21,7 @@ Most of my job and lab work lives in employer or university repositories, so it 
 - **LogicPatterns, Software Engineer Intern, summer 2025.**
   An AI agent that turns natural-language prompts into live software architecture diagrams.
 - **jobcrawl.**
-  A personal pipeline that polls about 540 company career boards every 10 minutes and scores new postings with Claude.
+  A personal pipeline that runs every 12 minutes, polls about 5,400 company career boards a day, and scores new postings with Claude.
   The code is private because it holds my application data; there is a [write-up](https://arunjay.dev/jobcrawl/).
 
 ## Public projects
