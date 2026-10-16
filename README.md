@@ -27,7 +27,7 @@ Most of my job and lab work lives in employer or university repositories, so it 
   The reference causal path runs a 40 GB A100 out of memory at 131K tokens.
   The fused kernel runs a 2M-token causal forward in 14.7 ms on one H100, 165x faster than the chunked PyTorch baseline.
 - [jobcrawl](https://github.com/Arunjay4213/jobcrawl) - watches company career boards at the source and emails a scored digest of new internship postings.
-  It has run unattended since July 2026: 7,358 runs, 5,894 boards across 29 applicant tracking systems, and about 872 million postings fetched.
+  It has run unattended since July 2026: 7,358 runs, 5,894 career boards on 14 applicant tracking systems plus company APIs, and about 872 million postings fetched.
   ETag-based conditional requests, per-host throttling, repost-aware dedupe, and closure detection keep it polite and cheap; an LLM scores what survives a regex prefilter.
 - [mosh-rs](https://github.com/Arunjay4213/mosh-rs) - the mobile shell (mosh) rewritten in Rust.
   It is wire-compatible with mosh 1.4 servers, adds a native Windows client and real scrollback, and is published on crates.io (`cargo install mosh`).
