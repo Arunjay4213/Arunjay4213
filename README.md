@@ -20,15 +20,15 @@ Most of my job and lab work lives in employer or university repositories, so it 
   An agentic system that turns unstructured client input into cited business requirements documents, using GraphRAG over Qdrant and Neo4j and a LangGraph pipeline with a critic loop.
 - **LogicPatterns, Software Engineer Intern, summer 2025.**
   An AI agent that turns natural-language prompts into live software architecture diagrams.
-- **jobcrawl.**
-  A personal pipeline that runs every 12 minutes, polls about 5,400 company career boards a day, and scores new postings with Claude.
-  The code is private because it holds my application data; there is a [write-up](https://arunjay.dev/jobcrawl/).
 
 ## Public projects
 
 - [race-attention-kernel](https://github.com/Arunjay4213/race-attention-kernel) - fused CUDA kernels for RACE Attention (ICLR 2026), built at the CDIS & OpenAI Summer AI Lab.
   The reference causal path runs a 40 GB A100 out of memory at 131K tokens.
   The fused kernel runs a 2M-token causal forward in 14.7 ms on one H100, 165x faster than the chunked PyTorch baseline.
+- [jobcrawl](https://github.com/Arunjay4213/jobcrawl) - watches company career boards at the source and emails a scored digest of new internship postings.
+  It has run unattended since July 2026: 7,358 runs, 5,894 boards across 29 applicant tracking systems, and about 872 million postings fetched.
+  ETag-based conditional requests, per-host throttling, repost-aware dedupe, and closure detection keep it polite and cheap; an LLM scores what survives a regex prefilter.
 - [mosh-rs](https://github.com/Arunjay4213/mosh-rs) - the mobile shell (mosh) rewritten in Rust.
   It is wire-compatible with mosh 1.4 servers, adds a native Windows client and real scrollback, and is published on crates.io (`cargo install mosh`).
   It was built with AI coding agents under a written plan, and the plan, status log, and reviews are all in the repo.
