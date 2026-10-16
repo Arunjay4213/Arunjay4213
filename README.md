@@ -43,8 +43,6 @@ Most of my job and lab work lives in employer or university repositories, so it 
   Built at StarkHacks 2026.
 - [AI_Interviewer](https://github.com/Arunjay4213/AI_Interviewer) - AI mock interviewer that also reads body language from the webcam.
   3rd place at MadData 2025.
-- [doordash-deal-scanner](https://github.com/Arunjay4213/doordash-deal-scanner) - an unattended agent that finds the cheapest all-in meal nearby every day, built on the official DoorDash CLI.
-  Its fee model reproduces DoorDash's own checkout quotes to within about a cent.
 - [claude-mods](https://github.com/Arunjay4213/claude-mods) - four Claude Code mods written in TypeScript.
   They show context window use, plan quota burn rate, and per-turn cost on screen, and one stops the session past a budget you set.
 - [shipwright](https://github.com/Arunjay4213/solari-cookbook/tree/main/shipwright) - an agent that builds a web app from one line of English, deploys it, tests it in a real browser, and fixes it until the tests pass.
